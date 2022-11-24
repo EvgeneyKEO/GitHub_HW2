@@ -1,0 +1,7 @@
+{
+    "ID"        : 1,
+    "Checking"  : "what i will check",
+    "Status"    : ["Passed", "Skipped", "Failed", "Not run", "Blocked"],
+    "Comment"   : "additional Information",
+    "Attachment": ["link", "video", "screen"]
+}
