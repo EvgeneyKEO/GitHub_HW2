@@ -1,4 +1,4 @@
-## **_GitHub. HW_2_**
+### :large_blue_diamond: **_GitHub. HW_2_**
 __________________________________________________________________________
 **_Part 1. На локальном репозитории сделать ветки для:_**
 - Postman						       
@@ -11,10 +11,14 @@ __________________________________________________________________________
 1.
  1.1. Создать на Githab репозитроий, в котором будут располагаться ветки [HW_31_group](https://github.com/EvgeneyKEO/HW_31_group.git)
  
- 1.2. Клонируем внешний репозиторий на локальный репозиторий `git clone https://github.com/EvgeneyKEO/HW_31_group.git` 
- 
- 1.3. Заходим в склонированный репозиторий `cd HW_31_group/`
- 
+ 1.2. Клонируем внешний репозиторий на локальный репозиторий 
+```
+git clone https://github.com/EvgeneyKEO/HW_31_group.git
+```
+ 1.3. Заходим в склонированный репозиторий 
+ ```
+ cd HW_31_group/
+ ```
  1.4. Создаем ветки Postman, Jmeter, CheckLists, Bag Reports, SQL, Charles, Mobile testing:
 ``` 
 git branch Postman
@@ -44,7 +48,9 @@ cat >>  bagrep.txt --> добавляем структуру баг репорт
 ```
       
 **_Part 4. Запушить структуру багрепорта на внешний репозиторий_**
-`git add . && git commit -m "add new file" && git push`
+```
+git add . && git commit -m "add new file" && git push
+```
 
 **_Part 5. Вмержить ветку Bag Reports в Main_**
 ```
@@ -53,7 +59,9 @@ git merge BagReports
 ```
       
 **_Part 6. Запушить main на внешний репозиторий._**
-`git push -u origin main`
+```
+git push -u origin main
+```
 
 **_Part 7. В ветке CheckLists набросать структуру чек листа_**
 ```
@@ -63,10 +71,14 @@ cat >> CheckLists.json
 ```
 
 **_Part 8. Запушить структуру на внешний репозиторий_**
-`git add . && git commit -m "add new file" && git push`
+```
+git add . && git commit -m "add new file" && git push
+``
 
 **_Part 9. На внешнем репозитории сделать Pull Request ветки CheckLists в main_**
-`Переходим на внешний репозиторий в ветку CheckLists, нажимаем кнопку Compare&pull requset`
+```
+Переходим на внешний репозиторий в ветку CheckLists, нажимаем кнопку Compare&pull requset
+```
 
 **_Part 10. Синхронизировать Внешнюю и Локальную ветки Main_**
 ```
