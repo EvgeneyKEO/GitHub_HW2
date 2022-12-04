@@ -73,7 +73,7 @@ cat >> CheckLists.json
 **_Part 8. Запушить структуру на внешний репозиторий_**
 ```
 git add . && git commit -m "add new file" && git push
-``
+```
 
 **_Part 9. На внешнем репозитории сделать Pull Request ветки CheckLists в main_**
 ```
